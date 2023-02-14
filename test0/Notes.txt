@@ -1,0 +1,16 @@
+Structura:
+    tema1.c -> va contine mainul care face checkuld de argumente, lanseaza threadurile, le asteapta si le inchide
+    mapreduce.c -> functii generice de map si reduce
+    helpers.c -> functii de citit din fisier si alte functii ajutatoare
+
+Toate cu headerele aferente
+
+TODO:
+    - Scris cod pentru citit din fisier - DONE
+    - Scris cod pentru detectie numar putere perfecta pentru un exponent e
+    - Scris cod pentru realizarea taskului in mod secvential
+        - Trec prin lista de fisiere
+        - Am liste pentru fiecare exponent 
+        - Adaug la listele respective
+        - Trec prin liste, elimin duplicatele si scriu rezultatul in fisiere
+
